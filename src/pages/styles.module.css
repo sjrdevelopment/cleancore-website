@@ -1,0 +1,35 @@
+.heading {
+    visibility: hidden;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+
+.mainImg {
+    width: 80%;
+    margin: 24px auto;
+    position: relative;
+    display: block;
+}
+
+.subheading,
+p {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+    .mainImg {
+        width: 408px;
+    }
+
+    .subheading,
+    p {
+        font-size: 24px;
+    }
+}
