@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="278px" viewBox="0 0 172 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2F7DD5" offset="0%"></stop>
+            <stop stop-color="#7858AF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-5" transform="translate(-2000.000000, -83.000000)">
+            <g id="Group-4" transform="translate(2000.000000, 83.000000)">
+                <rect id="Rectangle-19" fill="url(#linearGradient-1)" x="0" y="0" width="172" height="278" rx="10"></rect>
+                <g id="Group-3" transform="translate(26.000000, 31.000000)">
+                    <g id="Group">
+                        <circle id="Oval" stroke="#FFFFFF" stroke-width="5" cx="56" cy="113" r="51"></circle>
+                        <path d="M28,106.409313 L50.7631076,129 C93.0824836,79.0857126 114.494781,53.7523793 115,53" id="Path-2" stroke="#FFFFFF" stroke-width="13"></path>
+                        <text id="Compliant" font-family="NotoSans-SemiBold, Noto Sans" font-size="24" font-weight="500" letter-spacing="0.200000003" fill="#FFFFFF">
+                            <tspan x="0" y="206">Compliant</tspan>
+                        </text>
+                        <text id="08:00-10:00" font-family="NotoSans-Medium, Noto Sans" font-size="20" font-weight="400" letter-spacing="0.166666672" fill="#FFFFFF">
+                            <tspan x="9" y="21">08:00-10:00</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

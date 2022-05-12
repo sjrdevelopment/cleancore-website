@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
 .heading {
     visibility: hidden;
     opacity: 0;
@@ -8,26 +12,137 @@
     top: -1px;
 }
 
-.mainImg {
-    width: 80%;
-    margin: 24px auto;
-    position: relative;
-    display: block;
-}
-
 .subheading,
 p {
-    font-family: Helvetica;
     font-size: 16px;
     font-weight: 200;
-    text-align: center;
+    margin: 0 0 14px 0;
+}
+
+.banner {
+    margin: 80px 0;
+    text-align: right;
+    padding-right: 40%;
+}
+
+.banner .mainImg {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px 0;
+}
+
+.subHero {
+    background: #449495;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 400px;
+    width: 100%;
+    padding: 0 50%;
+    margin-left: -50%;
+    position: relative;
+    display: block;
+    color: WHITE;
+    /* overflow-x: inherit; */
+    max-width: 100%;
+}
+
+.subHeroWrapper {
+    overflow-x: hidden;
+}
+
+.subHeroInner {
+    padding: 30px;
+    width: 50%;
+    float: right;
+    margin-top: 5%;
+}
+
+.subHeroImg {
+    width: 20%;
+    margin: 76px 0 0 9%;
+    display: inline-block;
+    position: relative;
+}
+
+.contentCore {
+    height: 400px;
+    position: relative;
+}
+
+.contentCoreInner {
+    width: 50%;
+    display: inline-block;
+    margin: 40px;
+}
+
+.alertImg1 {
+    position: absolute;
+    top: calc(50% - 137px);
+    right: 340px;
+}
+
+.alertImg2 {
+    position: absolute;
+    top: calc(50% - 137px);
+    right: 140px;
+}
+.contentReporting {
+    position: relative;
+}
+
+.gridImg {
+    position: absolute;
+    left: 140px;
+    top: 40px;
+}
+
+.contentReportingInner {
+    width: 50%;
+    display: inline-block;
+    margin-left: 40%;
+    padding: 40px;
+}
+
+.contentAlerting {
+    position: relative;
+}
+
+.contentAlertingInner {
+    width: 50%;
+    display: inline-block;
+    margin: 40px;
+}
+
+.alertImg {
+    position: absolute;
+    right: 200px;
+    width: 120px;
+}
+
+footer {
+    background: #449495;
+    color: white;
+    padding: 40px;
+}
+
+footer a:link,
+footer a:visited {
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+    text-decoration: underline;
+}
+
+.disclaimer {
+    font-size: 14px;
+    color: #cccccc;
 }
 
 @media only screen and (min-width: 500px) {
-    .mainImg {
-        width: 408px;
-    }
-
     .subheading,
     p {
         font-size: 24px;
