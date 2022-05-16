@@ -2,6 +2,14 @@ body {
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
 }
+
+.maxWrapper {
+    min-height: 260px;
+    margin: auto;
+    max-width: 1300px;
+    position: relative;
+}
+
 .heading {
     visibility: hidden;
     opacity: 0;
@@ -20,9 +28,15 @@ p {
 }
 
 .banner {
-    margin: 80px 0;
-    text-align: right;
-    padding-right: 40%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+    .banner {
+        margin-top: 80px;
+        text-align: right;
+        padding-right: 40%;
+    }
 }
 
 .banner .mainImg {
@@ -35,15 +49,15 @@ p {
     background: #449495;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    height: 400px;
     width: 100%;
-    padding: 0 50%;
+    padding: 0 50% 40px;
     margin-left: -50%;
     position: relative;
     display: block;
     color: WHITE;
     /* overflow-x: inherit; */
     max-width: 100%;
+    height: 300px;
 }
 
 .subHeroWrapper {
@@ -51,56 +65,98 @@ p {
 }
 
 .subHeroInner {
-    padding: 30px;
-    width: 50%;
-    float: right;
+    padding: 0 15px;
     margin-top: 5%;
+}
+
+@media only screen and (min-width: 500px) {
+    .subHero {
+        height: 400px;
+    }
+    .subHeroInner {
+        padding: 30px;
+        width: 50%;
+        float: right;
+    }
 }
 
 .subHeroImg {
     width: 20%;
-    margin: 76px 0 0 9%;
-    display: inline-block;
+    margin: 15px auto 0;
+    display: block;
     position: relative;
 }
 
+@media only screen and (min-width: 500px) {
+    .subHeroImg {
+        width: 20%;
+        margin: 76px 0 0 9%;
+        display: inline-block;
+    }
+}
 .contentCore {
-    height: 400px;
     position: relative;
 }
 
 .contentCoreInner {
-    width: 50%;
-    display: inline-block;
     margin: 40px;
 }
 
 .alertImg1 {
-    position: absolute;
-    top: calc(50% - 137px);
-    right: 340px;
+    margin-left: 40px;
+    width: 30%;
 }
 
 .alertImg2 {
-    position: absolute;
-    top: calc(50% - 137px);
-    right: 140px;
+    margin-left: 20%;
+    width: 30%;
 }
+
+@media only screen and (min-width: 936px) {
+    .contentCoreInner {
+        width: 50%;
+        display: inline-block;
+    }
+    .alertImg1 {
+        position: absolute;
+        top: calc(50% - 114px);
+        right: 320px;
+        width: 140px;
+    }
+
+    .alertImg2 {
+        position: absolute;
+        top: calc(50% - 114px);
+        right: 140px;
+        width: 140px;
+    }
+}
+
 .contentReporting {
     position: relative;
 }
 
 .gridImg {
-    position: absolute;
-    left: 140px;
-    top: 40px;
+    margin: 40px auto 0;
+    display: block;
 }
 
 .contentReportingInner {
-    width: 50%;
-    display: inline-block;
-    margin-left: 40%;
     padding: 40px;
+}
+
+@media only screen and (min-width: 698px) {
+    .gridImg {
+        position: absolute;
+        left: 140px;
+        top: calc(50% - 120px);
+    }
+
+    .contentReportingInner {
+        width: 50%;
+        display: inline-block;
+        margin-left: 40%;
+    }
 }
 
 .contentAlerting {
@@ -108,15 +164,27 @@ p {
 }
 
 .contentAlertingInner {
-    width: 50%;
-    display: inline-block;
     margin: 40px;
 }
 
 .alertImg {
-    position: absolute;
-    right: 200px;
+    margin: 40px auto;
+    display: block;
     width: 120px;
+}
+
+@media only screen and (min-width: 698px) {
+    .contentAlertingInner {
+        width: 50%;
+        display: inline-block;
+    }
+
+    .alertImg {
+        position: absolute;
+        right: 200px;
+        display: inline-block;
+        margin: 40px 0;
+    }
 }
 
 footer {
