@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet'
 import * as styles from './styles.module.css'
 
 import logo from '../images/cc-intel-jp.jpg'
-import subHeroImg from '../images/ban-clipboards.svg'
+import subHeroImg from '../images/flow.svg'
 import alertImg1 from '../images/alertImg1.svg'
 import alertImg2 from '../images/alertImg2.svg'
 import gridImg from '../images/grid.svg'
@@ -51,15 +51,12 @@ const IndexPage = () => {
                         />
                         <div className={styles.subHeroInner}>
                             <p>
-                                Cleancore uses wireless technology to automate
-                                the tracking and alerting of cleaning schedules
-                                and compliance to your standards, replacing the
-                                need for manual record keeping.
-                            </p>
-                            <p>
-                                Build trust in facilities and communicate safety
-                                assurance to building users with digital
-                                inspection displays in shared areas.
+                                Cleancore automatically gathers data on key
+                                facilities usage and proof-of-prescence cleaning
+                                to enable compliance automation and pinnacle
+                                efficiency in maintaining shared facilities,
+                                while simulataneously communicating trust to
+                                users.
                             </p>
                         </div>
                     </div>
@@ -71,7 +68,8 @@ const IndexPage = () => {
                         <h2>CORE</h2>
                         <p>
                             Project confidence in cleanliness to building users
-                            using our Core systems
+                            using our Core systems, featuring digital inspection
+                            displays in shared areas.
                         </p>
                         <p>
                             Each Core wirelessly collects data at all your key
@@ -88,11 +86,16 @@ const IndexPage = () => {
                     {' '}
                     <img src={gridImg} alt="" className={styles.gridImg} />
                     <div className={styles.contentReportingInner}>
-                        <h2>REPORTING</h2>
+                        <h2>OPTIMISATION</h2>
                         <p>
-                            Real time monitoring and optimisation of cleaning
+                            Real time monitoring and reporting of cleaning
                             performance and usage levels, automatically
                             collected from each Core in your location.
+                        </p>
+                        <p>
+                            Enabling future automation by providing data to feed
+                            into other systems such as robotic cleaning
+                            solutions.
                         </p>
                     </div>
                 </div>
@@ -104,7 +107,8 @@ const IndexPage = () => {
                         <p>
                             Exception reporting and alerts when pre-defined
                             cleaning intervals are missed, or usage levels
-                            exceed thresholds
+                            exceed thresholds, focussing attention where it's
+                            needed.
                         </p>
                     </div>
                     <img src={alertImg} alt="" className={styles.alertImg} />
@@ -125,7 +129,7 @@ const IndexPage = () => {
                         to find out more.
                     </p>
                     <p className={styles.disclaimer}>
-                        SJR Technology Ltd trading as Cleancore Intelligence
+                        Cleancore Intelligence from SJR Technology Ltd
                     </p>
                 </div>
             </footer>
