@@ -51,11 +51,11 @@ const IndexPage = () => {
                         />
                         <div className={styles.subHeroInner}>
                             <p>
-                                Cleancore automatically gathers data on key
-                                facilities usage and proof-of-prescence cleaning
-                                to enable compliance automation and pinnacle
-                                efficiency in maintaining shared facilities,
-                                while simulataneously communicating trust to
+                                Cleancore automatically gathers usage data and
+                                operative proof-of-prescence to digitally
+                                monitor cleaning schedules, replacing the need
+                                for manual record keeping, while simultaneously
+                                building trust in shared facilities by building
                                 users.
                             </p>
                         </div>
@@ -68,11 +68,11 @@ const IndexPage = () => {
                         <h2>CORE</h2>
                         <p>
                             Project confidence in cleanliness to building users
-                            using our Core systems, featuring digital inspection
+                            with our CORE systems, featuring digital inspection
                             displays in shared areas.
                         </p>
                         <p>
-                            Each Core wirelessly collects data at all your key
+                            Each CORE wirelessly collects data at all your key
                             touch points in the building for traceability of
                             cleaning activity
                         </p>
@@ -90,12 +90,12 @@ const IndexPage = () => {
                         <p>
                             Real time monitoring and reporting of cleaning
                             performance and usage levels, automatically
-                            collected from each Core in your location.
+                            collected from each CORE in your location.
                         </p>
                         <p>
-                            Enabling future automation by providing data to feed
-                            into other systems such as robotic cleaning
-                            solutions.
+                            Enabling a future of automation by providing
+                            critical data to feed into other systems such as
+                            robotic cleaning and maintenance solutions.
                         </p>
                     </div>
                 </div>
@@ -127,9 +127,6 @@ const IndexPage = () => {
                             info@cleancoreintelligence.com
                         </a>{' '}
                         to find out more.
-                    </p>
-                    <p className={styles.disclaimer}>
-                        Cleancore Intelligence from SJR Technology Ltd
                     </p>
                 </div>
             </footer>
