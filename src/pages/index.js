@@ -5,7 +5,8 @@ import { Helmet } from 'react-helmet'
 import * as styles from './styles.module.css'
 
 import logo from '../images/cc-intel-jp.jpg'
-import subHeroImg from '../images/flow.svg'
+import subHeroImg from '../images/hero-ss.png'
+import subHeroImg2 from '../images/hero-ss-2.png'
 import alertImg1 from '../images/alertImg1.svg'
 import alertImg2 from '../images/alertImg2.svg'
 import gridImg from '../images/grid.svg'
@@ -31,13 +32,14 @@ const IndexPage = () => {
                 />
             </Helmet>
             <h1 className={styles.heading}>
-                Cleancore Intelligence - Smart cleaning compliance
+                Cleancore Intelligence - digitally track and optimise cleaning
+                activity
             </h1>
             <div className={styles.banner}>
                 <div className={styles.maxWrapper}>
                     <img className={styles.mainImg} src={logo} alt="" />
                     <p className={styles.subheading}>
-                        Smart cleaning compliance
+                        Digitally track and optimise cleaning activity
                     </p>
                 </div>
             </div>
@@ -53,10 +55,9 @@ const IndexPage = () => {
                             <p>
                                 Cleancore automatically gathers usage data and
                                 operative proof-of-prescence to digitally
-                                monitor cleaning schedules, replacing the need
-                                for manual record keeping, while simultaneously
-                                building trust in shared facilities by building
-                                users.
+                                monitor and optimise cleaning schedules, while
+                                simultaneously building trust in shared
+                                facilities by building users.
                             </p>
                         </div>
                     </div>
@@ -68,13 +69,14 @@ const IndexPage = () => {
                         <h2>CORE</h2>
                         <p>
                             Project confidence in cleanliness to building users
-                            with our CORE systems, featuring digital inspection
+                            with our CORE system, featuring digital inspection
                             displays in shared areas.
                         </p>
                         <p>
-                            Each CORE wirelessly collects data at all your key
-                            touch points in the building for traceability of
-                            cleaning activity
+                            Each CORE wirelessly collects data using occupancy
+                            sensors to monitor cubicles and other areas, along
+                            with proof-of-presence sensors of cleaning equipment
+                            and personnel.
                         </p>
                     </div>
                     <img src={alertImg1} alt="" className={styles.alertImg1} />
@@ -88,16 +90,22 @@ const IndexPage = () => {
                     <div className={styles.contentReportingInner}>
                         <h2>OPTIMISATION</h2>
                         <p>
-                            Real time monitoring and reporting of cleaning
-                            performance and usage levels, automatically
-                            collected from each CORE in your location.
+                            Only clean when and where it is needed. Real time
+                            monitoring and reporting of cleaning performance and
+                            usage levels, automatically collected from each CORE
+                            in your location.
                         </p>
                         <p>
                             Enabling a future of automation by providing
                             critical data to feed into other systems such as
-                            robotic cleaning and maintenance solutions.
+                            robotic cleaning and maintenance systems.
                         </p>
                     </div>
+                    <img
+                        className={styles.subHeroImg2}
+                        src={subHeroImg2}
+                        alt=""
+                    />
                 </div>
             </div>
             <div className={styles.contentAlerting}>
