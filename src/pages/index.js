@@ -54,8 +54,8 @@ const IndexPage = () => {
                         <div className={styles.subHeroInner}>
                             <p>
                                 Cleancore automatically gathers usage data and
-                                operative proof-of-prescence to digitally
-                                monitor and optimise cleaning schedules, while
+                                operative proof-of-presence to digitally monitor
+                                and optimise cleaning schedules, while
                                 simultaneously building trust in shared
                                 facilities by building users.
                             </p>
